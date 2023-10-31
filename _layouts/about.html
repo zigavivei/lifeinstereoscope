@@ -1,12 +1,21 @@
----
-# default "About" page layout
-layout: default
+$headings-margin-bottom:      $spacer * .5;
+$headings-font-family:        null;
+$headings-font-style:         null;
+$headings-font-weight:        500;
+$headings-line-height:        1.2;
+$headings-color:              null;
+
+.alpha { color: $green; }
+.beta {
+  color: $green-800;
+  background-color: $green-100;
+}
 ---
 <div class="container my-4 about-contents">
   <h1 class="display-1">Life in Stereoscope</h1>
   <h1 class="display-5">Viewable Vistas, Labor and Family Life</h1>
 {{ content }}
-{% include feature/image.html objectid="demo_sg007;sg022i;sg015" %}
+{% include feature/image.html objectid="sg007;sg022i;sg015" %}
 </div>
 <body>Before virtual reality, before 3D technology as we know it today, there was stereography. 
 A social activity, an educational tool, and one of the earliest forms of commercial photography, this technology was once so popular it’s said that, by the late 19th century, almost every American home owned a stereoscope and its accompanying stereoviews.
@@ -21,5 +30,3 @@ Each speaks to a different way this technology was used – to travel the globe,
 By allowing viewers to do more than just look at a photograph, but to feel immersed in one, stereographs fundamentally changed the way people saw and understood the world around them.
 </body>
 
-
-{% if page.credits == true %}{% include cb/credits.html %}{% endif %}
