@@ -1,7 +1,8 @@
 <div class="card mb-3">
   <div class="card-body">
     <h5 class="card-title">Description</h5>
-    <p class="card-text">{{ site.description }}</p>
+    <p class="card-text">{{ By allowing viewers to do more than just look at a photograph, but to feel immersed in one, stereographs fundamentally changed the way people saw and understood the world around them.
+ }}</p>
     {%- assign about = site.data.config-nav | where: "stub","/about.html" | size -%}
     {% if about > 0 %}<a class="btn btn-outline-primary" href="{{ '/about.html' | relative_url }}" >Learn More &raquo;</a>{% endif %}
   </div>
