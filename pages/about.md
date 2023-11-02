@@ -3,7 +3,7 @@ title: About
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
-credits: true
+credits: false
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
@@ -11,13 +11,10 @@ credits: true
 
 ## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+Before virtual reality, before 3D technology as we know it today, there was stereography. A social activity, an educational tool, and one of the earliest forms of commercial photography, this technology was once so popular it’s said that, by the late 19th century, almost every American home owned a stereoscope and its accompanying stereoviews. 
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+Stereographs work similarly to the way our eyes and brains do. By placing two nearly identical photos next to each other and viewing them through a stereoscope, the pair converge into a singular, three-dimensional image. With just a stereoscope and a few stereocards, you could travel the world, learn about natural disasters and political conflicts, or glimpse into the lives of people thousands of miles away. All without ever leaving your home! 
+
+The stereoviews on display in this collection were selected from the iSchool’s teaching collection. Each speaks to a different way this technology was used – to travel the globe, understand the labor movement, and view the domestic lives of those photographed. By allowing viewers to do more than just look at a photograph, but to feel immersed in one, stereographs fundamentally changed the way people saw and understood the world around them.
 
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
-
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
